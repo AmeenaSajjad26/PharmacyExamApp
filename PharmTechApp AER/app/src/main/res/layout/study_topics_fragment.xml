@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this layout it just the checkbox for the pane dialog-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/resp"
+        android:layout_alignStart="@+id/gi"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="76dp"
+
+        android:layout_weight="0.30"
+        android:paddingBottom="10dp"
+        android:text="Pick Your Study Topic:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <RelativeLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.56">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow android:orientation="vertical">
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+        </TableLayout>
+
+        <CheckBox
+            android:id="@+id/urine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5sp"
+            android:text="@string/urine"
+            android:layout_alignBottom="@+id/tableLayout"
+            android:layout_below="@+id/tableLayout" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/muscul"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gi"
+        android:layout_marginTop="12dp"
+        android:text="@string/musulos_skeletal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/analgesic"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="5sp"
+        android:text="@string/analgesic"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/eye"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/end"
+        android:layout_marginRight="16dp"
+        android:text="@string/eyes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/end"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/urine"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="16dp"
+        android:text="@string/dm_endocrine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/infective"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muscul"
+        android:layout_marginRight="10sp"
+        android:text="@string/anti_infective"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/hm"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/resp"
+        android:text="@string/heme"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/cns"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/urine"
+        android:layout_marginRight="5sp"
+        android:text="@string/cns"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/resp"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/muscul"
+        android:text="@string/respiratory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/derm"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cns"
+        android:text="@string/derm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/gi"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="10sp"
+        android:text="@string/GI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/cv"
+        android:layout_width="351dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5sp"
+        android:text="@string/cv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <CheckBox
+        android:id="@+id/all"
+        android:layout_width="352dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:text="@string/all_topic"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/flashcard_bt_info_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.68" />
+
+        <TextView
+            android:id="@+id/flashcard_tv_name_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/flashcard_tv_drug_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="618dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/flashcard_bt_next"
+            android:layout_width="146dp"
+            android:layout_height="112dp"
+            android:layout_weight="0.12"
+            android:text="@string/next" />
+
+        <Button
+            android:id="@+id/flashcard_bt_previous"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:text="@string/previous" />
+
+    </LinearLayout>
+
+</LinearLayout>

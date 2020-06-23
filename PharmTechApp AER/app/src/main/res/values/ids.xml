@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_Previous" type="id">Previous</item>
+    <item name="quiz_button" type="id">Quiz Mode</item>
+    <item name="brand_name" type="id">brand_name</item>
+    <item name="medicine_name" type="id">medicine_name</item>
+</resources>

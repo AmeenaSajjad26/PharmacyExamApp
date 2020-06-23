@@ -1,0 +1,62 @@
+<resources>
+
+    <!--                  Random Contributors                -->
+
+
+    <!--                       Edgard's part                        -->
+
+    <string name="app_name">PharmTech AER</string>
+    <string name="drug_name_textview">Drug Name</string>
+    <string name="audio_button">Take note</string>
+    <string name="cv">CV</string>
+    <string name="urine">Urinary System</string>
+    <string name="cns">CNS</string>
+    <string name="respiratory">Respiratory System</string>
+    <string name="derm"> Derm</string>
+    <string name="analgesic">Analgesics</string>
+    <string name="musulos_skeletal">Musculo-Skeletal System</string>
+    <string name="anti_infective">Anti-Infectives</string>
+    <string name="GI">GI System</string>
+    <string name="eyes">Eyes</string>
+    <string name="dm_endocrine">DM/Endocrine</string>
+    <string name="heme">Hematology</string>
+    <string name="all_topic">All Topics</string>
+    <string name="about">About Us</string>
+    <string name="note">My Notes</string>
+
+    <!--                       Alex's part                          -->
+
+    <string name="practice">Practice</string>
+
+
+    <string name="next_button">Next</string><![CDATA[
+
+    >
+
+
+    ]]><!--                     Ruchelly's Part   <string name="study_topics">Study Topics</string                    -->
+
+
+    <string name="review_mode">Review</string>
+    <string name="quiz_mode">Quiz</string>
+    <string name="flashcard_mode">Flashcards</string>
+
+
+    <string name="question_generic_name" formatted="false">What is the generic name for %s ?</string>
+    <string name="question_category" formatted="false">The category of %s is </string>
+    <string name="question_purpose" formatted="false">What is %s indicated for?</string>
+    <string name="question_brand_name" formatted="false">Which of the following is the brand name for %s ?</string>
+
+    <string name="question_out_of_text" formatted="false">Question %s / 5</string>
+
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+
+
+    <string name="option2_answer">%s</string>
+    <string name="option3_answer">%s</string>
+    <string name="option4_answer">%s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
