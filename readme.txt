@@ -4,6 +4,6 @@ This application was created as a project during my Adroid stdudio course with m
 Project Name: PharmaTech App 
 
 Group Members: -
-AMEENA SAJJAD
+AMEENA 
 BONFACE
 EVE
