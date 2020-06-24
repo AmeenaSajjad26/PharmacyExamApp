@@ -1,7 +1,7 @@
 Project Name: PharmaTech App
 
 Group Members: -
- AMEENA SAJJAD
+AMEENA SAJJAD
 BONFACE
 EVE
 
